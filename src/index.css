@@ -1,0 +1,17 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&family=Padauk:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Padauk", sans-serif;
+}
+
+.my-clip-path {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+}
+
+.my-img {
+  transform: scaleX(-1);
+}
